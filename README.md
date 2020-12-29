@@ -33,6 +33,12 @@ Edit file `configuration.toml` with the `username` and `password` you have recei
 
 ## Login
 
+Once the configuration file has been set, it is possible to login directly from the CLI.
+
+```
+$ ncode login
+```
+
 ## Profile local data
 
 Assuming one wants to monitor `mypath/mydata.csv`, the command to extract metadata and publish to the private space on the ncode cloud is 
