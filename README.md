@@ -23,7 +23,7 @@ The official CLI includes a minimal help documentation via `ncode --help`
 
 Unzip the file downloaded for your OS.
 
-```
+```bash
 $ unzip ncode-agent
 $ cd ncode-agent
 ```
@@ -35,7 +35,7 @@ Edit file `configuration.toml` with the `username` and `password` you have recei
 
 Once the configuration file has been set, it is possible to login directly from the CLI.
 
-```
+```bash
 $ ncode login
 ```
 
@@ -43,15 +43,15 @@ $ ncode login
 
 Assuming one wants to monitor `mypath/mydata.csv`, the command to extract metadata and publish to the private space on the ncode cloud is 
 
-```
-ncode profile --data mypath/mydata.csv --publish
+```bash
+$ ncode profile --data mypath/mydata.csv --publish
 
 ```
 
 ## List all published data assets
 
-```
-ncode data --all
+```bash
+$ ncode data --all
 ```
 
 ## List one specific data asset
@@ -59,15 +59,15 @@ ncode data --all
 In order to print the fields of a particular data assets, e.g. with `id=0x1234`, type
 
 ```
-ncode data --id 0x1234
+$ ncode data --id 0x1234
 ```
 
 ## Profile published data
 
 In order to profile the same data assets over and over, type the same command as above, specifing the full/relative path.
 
-```
-ncode profile --data mypath/mydata.csv --publish
+```bash
+$ ncode profile --data mypath/mydata.csv --publish
 
 ```
 
@@ -78,16 +78,16 @@ It is also possible to interact with such alerts (list all alerts, list specific
 
 Alerts referring to a specific data asset with `id=0x1234` can be listed with
 
-```
-ncode alerts --data 0x1234
+```bash
+$ ncode alerts --data 0x1234
 ```
 
 ## Delete all alerts 
 
 After listing alerts for a specific data asset, it is possible to delete them with `--delete` flag like below.
 
-```
-ncode alerts --data 0x1234 --delete
+```bash
+$ ncode alerts --data 0x1234 --delete
 ```
 
 
