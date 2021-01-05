@@ -1,6 +1,6 @@
 # What is this?
 
-This is the official *ncode* agent release for GNU/Linux and MacOS. 
+This is the official *ncode* agent release for GNU/Linux. 
 For further information about License, Terms and Privacy policy, do refer to the official website [ncode.ai](https://ncode.ai)
 We are currently accepting only users by invitation. If you would like to give our platform a try, please send a request to hello@ncode.ai
 
@@ -13,7 +13,7 @@ With the executable saved to your local machine you can extract metadata from yo
 | -------------    |:-------------:| ---------------:|
 | GNU/Linux        | [download](https://github.com/fgadaleta/ncode-agent/releases/download/v0.1-alpha/ncode-linux)        | Current release |
 | Mac OS           | NA        |  NA   |
-| MS Windows       | [download]          |  NA  |
+| MS Windows       | NA          |  NA  |
 
 
 The official CLI includes a minimal help documentation via `ncode --help`  
