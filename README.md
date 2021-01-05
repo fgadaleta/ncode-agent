@@ -21,6 +21,8 @@ The official CLI includes a minimal help documentation via `ncode --help`
 
 ## Configuration
 
+TODO
+
 Unzip the file downloaded for your OS.
 
 ```bash
