@@ -11,8 +11,8 @@ With the executable saved to your local machine you can extract metadata from yo
 
 | Operating System | ver. 0.1      | Description     |
 | -------------    |:-------------:| ---------------:|
-| GNU/Linux        | [download](https://test)        | Current release |
-| Mac OS           | [download](https://test)        |  NA   |
+| GNU/Linux        | [download](https://github.com/fgadaleta/ncode-agent/releases/download/v0.1-alpha/ncode-linux)        | Current release |
+| Mac OS           | NA        |  NA   |
 | MS Windows       | [download]          |  NA  |
 
 
