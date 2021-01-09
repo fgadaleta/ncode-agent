@@ -20,6 +20,7 @@ With the executable saved to your local machine you can extract metadata from yo
 | Mac OS           | NA        |  NA   |
 | MS Windows       | NA          |  NA  |
 
+For the sake of simplicity, from here on we refer to the ncode executable as `./ncode` for both operating systems.
 
 The official CLI includes a minimal help documentation via `./ncode --help`  
 
@@ -31,7 +32,14 @@ Downloaded the `ncode` agent for your OS.
 The first time the `ncode` agent is ran, a directory `.ncode` will be created under the `HOME` path. 
 In such folder a sample configuration file will be created. Please do copy it to `configuration.toml` with the correct `username` and `password` provided to you via email.
 
+Change permissions of the executable so that you can launch it from the terminal
+From the folder where the ncode agent is stored, type `chmod a+x ncode-linux`
+
+
 ## Login
+
+The first time you execute the agent with `./ncode login`, a configuration folder will be created under `~/.ncode`
+Please copy the sample configuration file to `configuration.toml` under the same folder.
 
 Once the configuration file has been set, it is possible to login directly from the CLI.
 
@@ -107,3 +115,8 @@ After listing alerts for a specific data asset, it is possible to delete them wi
 ```bash
 $ ./ncode alerts --data 0x1234 --delete
 ```
+
+
+# Found an Issue? Let us know
+
+If you find an issue that requires a fix, please use the Issue system on the [GitHub repository](https://github.com/fgadaleta/ncode-agent/issues)
