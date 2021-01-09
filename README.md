@@ -45,7 +45,7 @@ In order to monitor local data at `mypath/mydata.csv`, one needs to profile to e
 The command to extract metadata and publish to the private space on the ncode cloud is 
 
 ```bash
-$ ./ncode profile --data mypath/mydata.csv --publish
+$ ./ncode profile --input mypath/mydata.csv --publish
 
 ```
 
@@ -72,7 +72,7 @@ The data owner has to re-profile the data every time the original data changes.
 The new metadata will be compared in the cloud to the most recent profile and alerts will be generated.
 
 ```bash
-$ ./ncode profile --data mypath/mydata.csv --publish
+$ ./ncode profile --input mypath/mydata.csv --publish
 
 ```
 
