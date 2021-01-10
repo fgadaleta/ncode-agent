@@ -16,8 +16,8 @@ With the executable saved to your local machine you can extract metadata from yo
 
 | Operating System | ver. 0.1      | Description     |
 | -------------    |:-------------:| ---------------:|
-| GNU/Linux        | [download](https://github.com/fgadaleta/ncode-agent/releases/download/v0.1-alpha/ncode-linux)        | Current release |
-| Mac OS           | NA        |  NA   |
+| GNU/Linux        | [download](https://github.com/fgadaleta/ncode-agent/releases/download/v0.1-alpha/ncode-linux)        | v0.1-alpha pre-release |
+| Mac OS           | [download](https://github.com/fgadaleta/ncode-agent/releases/download/v0.1-alpha/ncode-macos)        | v0.1-alpha pre-release |
 | MS Windows       | NA          |  NA  |
 
 For the sake of simplicity, from here on we refer to the ncode executable as `./ncode` for both operating systems.
