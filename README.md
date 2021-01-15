@@ -33,7 +33,9 @@ The first time the `ncode` agent is ran, a directory `.ncode` will be created un
 In such folder a sample configuration file will be created. Please do copy it to `configuration.toml` with the correct `username` and `password` provided to you via email.
 
 Change permissions of the executable so that you can launch it from the terminal
-From the folder where the ncode agent is stored, type `chmod a+x ncode-linux`
+From the folder where the ncode agent is stored, type 
+
+`chmod a+x ncode-linux`
 
 
 ## Login
